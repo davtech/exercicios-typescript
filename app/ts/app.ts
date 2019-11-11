@@ -1,1 +1,4 @@
-let negociacao = new Negociacao(new Date(), 1, 100);
+const controller = new negociacaoController();
+
+document.querySelector(".form")
+  .addEventListener("submit", controller.adiciona.bind(controller));
