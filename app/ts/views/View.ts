@@ -1,3 +1,4 @@
+
 export abstract class View<T> {
   private _elemento: JQuery;
   private _escapar: Boolean;
